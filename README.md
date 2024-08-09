@@ -86,10 +86,13 @@ streamlit run chat.py
 ### APIs Used
 1. **Gemini API**: This is used to generate the statements from the given context from the documents.
 
-### Application Structure
+### Project Structure
 1. `data` folder stores the relavent documents in either pdf or markdown format.
 2. `local_chroma_db` folder stores the vector embeddings for the chunks of informations retrieved from the documents.
 3. `chat.py` is the main file which creates the vector embeddings and makes API calls to Gemini.
+
+![Chatiiitb drawio](https://github.com/user-attachments/assets/4e7bb845-0fe2-46f2-9c06-98a6db4ed64c)
+
 
 ## Challenges
 - Ensuring accurate and relevant document retrieval for varied queries.
