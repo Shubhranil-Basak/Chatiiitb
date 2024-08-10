@@ -27,10 +27,10 @@ The current year admissions to the B.Tech. and the I.M.Tech. programmes are sole
 
 IIIT-B offers admission to the following 5 programmes:
 
-    1. B.Tech. in Computer Science and Engineering (B.Tech. CSE) 
+    1. B.Tech. in Computer Science and Engineering (B.Tech. CSE)
     2. B.Tech. in Electronics and Communication Engineering (B.Tech. ECE)
-    3. B.Tech. in Data Science and Artificial Intelligence (B.Tech. DSAI) 
-    4. I.M.Tech. in Computer Science and Engineering (I.M.Tech. CSE) 
+    3. B.Tech. in Data Science and Artificial Intelligence (B.Tech. DSAI)
+    4. I.M.Tech. in Computer Science and Engineering (I.M.Tech. CSE)
     5. I.M.Tech. in Electronics and Communication Engineering (I.M.Tech. ECE)
 
 

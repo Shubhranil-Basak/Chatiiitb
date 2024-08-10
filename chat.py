@@ -37,6 +37,7 @@ def hash_it(content: str):
 def load_data():
     with st.spinner(text="Loading and indexing the Streamlit docs – hang tight! This should take 1-2 minutes."):
 
+        # Incase the database does not exist, create it
         if not os.listdir(LOCAL_CHROMA_DB_PATH):
 
             embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
@@ -47,9 +48,9 @@ def load_data():
 
             text_splitter = CharacterTextSplitter(
                 separator="\n\n",
-                chunk_overlap=0,
+                chunk_overlap=5,
                 length_function=len,
-                chunk_size=1,
+                chunk_size=25,
                 is_separator_regex=False,
             )
 
@@ -57,17 +58,20 @@ def load_data():
             sources = [page.metadata['source'] for page in pages]
             _hash = [hash_it(source) for source in sources]
             vector_store.add_documents(pages, id=_hash)
-        else:
+        else: # Use the existing database
             embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
             vector_store = Chroma(embedding_function=embeddings, persist_directory=LOCAL_CHROMA_DB_PATH)
 
         return vector_store
 
+# Load the data
 vector_store = load_data()
 
+# Define the chat engine
 llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash")
 chat_engine = RetrievalQA.from_llm(llm, retriever=vector_store.as_retriever(search_kwargs={"k": 5}))
 
+# Define the chat template
 template = """
 You are a helpful AI assistant.
 Answer based on the context provided. 
