@@ -7,13 +7,12 @@ from langchain.prompts import PromptTemplate
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain.chains import create_retrieval_chain
 from langchain_text_splitters import CharacterTextSplitter
-# from langchain.text_splitter import MarkdownTextSplitter
 import os
 from hashlib import sha256
 from dotenv import load_dotenv
+import re
 
 load_dotenv()
-
 
 os.environ["GOOGLE_API_KEY"] = os.environ.get("GOOGLE_API_KEY")
 st.header("Chat with the Streamlit docs 💬 📚")
@@ -22,6 +21,8 @@ if "messages" not in st.session_state.keys():  # Initialize the chat message his
     st.session_state.messages = [
         {"role": "assistant", "content": "I will help you with the provided docs. Ask me anything"}
     ]
+if "last_entity" not in st.session_state:  # Initialize entity tracking
+    st.session_state.last_entity = None
 
 # Define the path to the local storage for ChromaDB
 LOCAL_CHROMA_DB_PATH = "./local_chroma_db"
@@ -39,7 +40,6 @@ def load_data():
 
         # Incase the database does not exist, create it
         if not os.listdir(LOCAL_CHROMA_DB_PATH):
-
             embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
             vector_store = Chroma(embedding_function=embeddings, persist_directory=LOCAL_CHROMA_DB_PATH)
 
@@ -48,9 +48,9 @@ def load_data():
 
             text_splitter = CharacterTextSplitter(
                 separator="\n\n",
-                chunk_overlap=5,
+                chunk_overlap=100,
                 length_function=len,
-                chunk_size=25,
+                chunk_size=800,
                 is_separator_regex=False,
             )
 
@@ -75,13 +75,25 @@ chat_engine = RetrievalQA.from_llm(llm, retriever=vector_store.as_retriever(sear
 template = """
 You are a helpful AI assistant.
 Answer based on the context provided. 
-context: {context}
+context: {context}. Everything in context is about IIITB.
 input: {input}
 answer:
 """
 prompt = PromptTemplate.from_template(template)
 combine_docs_chain = create_stuff_documents_chain(llm, prompt)
 retrieval_chain = create_retrieval_chain(vector_store.as_retriever(), combine_docs_chain)
+
+def get_last_messages(n=5):
+    # Get the last `n` messages from chat history
+    return "\n".join([msg["content"] for msg in st.session_state.messages[-n:]])
+
+def extract_entity(text):
+    # A simple regex to extract proper nouns (names) from the text
+    # This can be enhanced based on your specific needs
+    match = re.findall(r"\b[A-Z][a-z]*\s[A-Z][a-z]*\b", text)
+    if match:
+        return match[-1]  # Return the last found entity
+    return None
 
 if prompt := st.chat_input("Your question"):  # Prompt for user input and save to chat history
     st.session_state.messages.append({"role": "user", "content": prompt})
@@ -90,13 +102,24 @@ for message in st.session_state.messages:  # Display the prior chat messages
     with st.chat_message(message["role"]):
         st.write(message["content"])
 
-
-
 # If last message is not from assistant, generate a new response
 if st.session_state.messages[-1]["role"] != "assistant":
     with st.chat_message("assistant"):
         with st.spinner("Thinking..."):
-            response = retrieval_chain.invoke({"input": f"{prompt}"})
+            last_messages = get_last_messages()  # Get the last 5 messages
+
+            # Check if the user input refers to "her", "him", or similar pronouns
+            if re.search(r"\b(her|him|them)\b", prompt, re.IGNORECASE):
+                # Use the last tracked entity in the context
+                if st.session_state.last_entity:
+                    prompt = f"{prompt} (Referring to {st.session_state.last_entity})"
+            
+            response = retrieval_chain.invoke({"input": f"{prompt}", "context": last_messages})
             st.write(response['answer'])
             message = {"role": "assistant", "content": response['answer']}
             st.session_state.messages.append(message)  # Add response to message history
+
+            # Extract and store the last mentioned entity for future reference
+            entity = extract_entity(response['answer'])
+            if entity:
+                st.session_state.last_entity = entity
