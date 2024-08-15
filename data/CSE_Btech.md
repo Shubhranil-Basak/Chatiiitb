@@ -1,3 +1,5 @@
+# Btech CSE
+
 IIIT-Bangalore is launching a 4-year B.Tech. (CSE) programme in the year 2024. The aim of the programme is to produce high-quality graduates in Computer Science Engineering (CSE) who are equipped with the skills required to solve real-world problems using advanced computational techniques. The programme will prepare a motivated workforce for careers in research and industry, involving innovation, knowledge creation, engineering and entrepreneurship.
 
 The B.Tech. (CSE) programme follows a flexible curriculum covering the theoretical underpinnings of computer science, along with essential topics in computer systems. It emphasizes foundational aspects of computer science while developing students' engineering skills to tackle emerging technological challenges. From the fifth semester onwards, students register for elective courses following the Choice Based Credit System (CBCS) as recommended by AICTE and other regulatory bodies. As part of the mandatory branch electives, students must take courses in TCS (Theoretical Computer Science) and SSY (Software Systems). The programme also includes a mandatory internship or thesis.

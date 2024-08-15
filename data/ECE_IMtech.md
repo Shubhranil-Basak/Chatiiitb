@@ -1,3 +1,5 @@
+# IMtech ECE
+
 IIIT-Bangalore introduced a 5-year Integrated M.Tech. (iMTech) programme in the year 2012. This programme intended for students who have completed or are completing Plus Two (or equivalent). At the end of five years of the programme, successful students receive dual degrees of B.Tech and M.Tech.
 
 The iMTech CSE is a ten-semester programme where the first eight semesters constitute academic coursework. During the ninth semester, a student is expected to work on a project at the Institute or take advanced courses that will help students pursue higher studies. In the tenth semester, the student may opt for a thesis or internship in a well-recognized organization.

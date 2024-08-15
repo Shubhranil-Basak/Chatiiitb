@@ -1,3 +1,5 @@
+# MTech ECE
+
 The goal of postgraduate programmes at IIIT-Bangalore is to develop professionals of high quality to cater to the needs of industry and academia. Such education will be based on a broad grasp of the fundamental principles of the sciences and scientific methods, a deep understanding of a specific area of specialization, an ability to solve new problems, and a capacity to learn continually and interact with multidisciplinary groups. Above all, IIIT-Bangalore aims at developing in its students a capacity for free and objective inquiry, courage and integrity, and awareness and sensitivity to the needs and aspirations of society. The postgraduate programs are designed with the above goals in view. They include courses of study, seminars, project work, and internships, or research leading to a thesis.
  
 M. Tech. in Electronics and Communication Engineering (ECE) is a two-year (4-semester) programme. The programme has been approved by AICTE. The students enrolled need to earn at least 64 credits, with at least a CGPA of 2.4 (in a 4-point grading system) to graduate with an M. Tech (ECE) degree.

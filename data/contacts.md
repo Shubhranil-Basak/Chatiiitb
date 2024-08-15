@@ -1,68 +1,66 @@
-# Contact Details
+Contact Details of IIITB faculty members:
 
-|name|email|
-|----|-----|
-|Amit Prakash|amitprakash@iiitb.ac.in|
-|Amit Chattopadhyay|a.chattopadhyay@iiitb.ac.in|
-Amrita Mishra|amrita.mishra@iiitb.ac.in|
-|Ananda Y R|ananda.yr@iiitb.ac.in|
-|Ashish Choudhury|ashish.choudhury@iiitb.ac.in|
-|Badrinath Ramamurthy|badrinath.r@iiitb.ac.in|
-|Balaji Parthasarathy|pbalaji@iiitb.ac.in|
-|Balakrishnan Ashok|bashok@iiitb.ac.in|
-|Chandrashekar Ramanathan|rc@iiitb.ac.in|
-|Debabrata Das|ddas@iiitb.ac.in|
-|Dinesh Babu Jayagopi|jdinesh@iiitb.ac.in|
-|G Srinivasaraghavan|gsr@iiitb.ac.in|
-|Harish Ramani|harish.ramani@iiitb.ac.in|
-|Janaki Srinivasan|janaki.srinivasan@iiitb.ac.in|
-|Jaya Sreevalsan Nair|jnair@iiitb.ac.in|
-|Jyotsna Bapat|jbapat@iiitb.ac.in|
-|Karthikeyan Vaidyanathan|NIL|
-|Kurian Polachan|kurian.polachan@iiitb.ac.in|
-|Madhav Rao|mr@iiitb.ac.in|
-|Manisha Kulkarni|manisha.kulkarni@iiitb.ac.in|
-|Meenakshi D'Souza|meenakshi@iiitb.ac.in|
-|Mohan Ram C|mohanram.c@iiitb.ac.in|
-|Nanditha Rao|nanditha.rao@iiitb.ac.in|
-|Pradeesha Ashok|pradeesha@iiitb.ac.in|
-|Preeti Mudliar|preeti.mudliar@iiitb.ac.in|
-|Prem Singh|prem.singh@iiitb.ac.in|
-|Priyanka Sharma|priyanka.sharma@iiitb.ac.in|
-|Priyanka Das|priyanka.das@iiitb.ac.in|
-|Raghuram Bharadwaj|raghuram.bharadwaj@iiitb.ac.in|
-|Ramesh Kestur|NIL|
-|Roland Erik Haas|roland.haas@iiitb.ac.in|
-|S Rajagopalan|raj@iiitb.ac.in|
-|S S Prabhu|sprabhu@iiitb.ac.in|
-|Sachit Rao|sachit@iiitb.ac.in|
-|Sakshi Arora|sakshi.arora@iiitb.ac.in|
-|Shiva Kumar Malapaka|malapaka@iiitb.ac.in|
-|Shrisha Rao|srao@iiitb.ac.in|
-|Srinath Srinivasa|sri@iiitb.ac.in|
-|Srinivas Vivek|rinivas.vivek@iiitb.ac.in|
-|Subir Kumar Roy|subir@iiitb.ac.in|
-|Sujit Kumar Chakrabarti|sujitkc@iiitb.ac.in|
-|Sushree Sangeeta Behera|sushree.behera@iiitb.ac.in|
-|T K Srikanth|tk.srikanth@iiitb.ac.in|
-|Thangaraju B|b.thangaraju@iiitb.ac.in|
-|Uttam Kumar|uttam@iiitb.ac.in|
-|V Ramasubramanian|v.ramasubramanian@iiitb.ac.in|
-|V N Muralidhara|murali@iiitb.ac.in|
-|V Sridhar|vsridhar@iiitb.ac.in|
-|Valsala Rajan|NIL|
-|Vinod Veera Reddy|vinod.reddy@iiitb.ac.in|
-|Vinu E Venugopal|vinu.ev@iiitb.ac.in|
-|Viswanath Gopalakrishnan|viswanath.g@iiitb.ac.in|
-|Vivek Yadav|vivek.yadav@iiitb.ac.in|
-|Dr Lakshmi Jagannathan|ceoinnovationcenter@iiitb.ac.in|
-|Nahla A|nahla.alambilasseri@iiitb.ac.in|
-|Manugowda M S|manugowda.ms@iiitb.ac.in|
-|Pramila Kumar|Pramila.kumar@iiitb.ac.in|
-|Sridhar Pillalamarri|sridhar.p@iiitb.ac.in|
-|Ravi B|ravi.b@iiitb.ac.in|
-|Dhanush R|dhanush.r@iiitb.ac.in|
-|Arun Kumar Gurumurthy|arun@mosip.io|
-|Bhagyalakshmi R|hagya.lakshmi@iiitb.ac.in|
-|Nandini V|nandini.v@iiitb.ac.in|
-|Kannan V|kannan.v@iiitb.ac.in|
+name: Amit Prakash, email: amitprakash@iiitb.ac.in
+name: Amit Chattopadhyay, email: a.chattopadhyay@iiitb.ac.in
+name: Amrita Mishra, email: amrita.mishra@iiitb.ac.in
+name: Ananda Y R, email: ananda.yr@iiitb.ac.in
+name: Ashish Choudhury, email: ashish.choudhury@iiitb.ac.in
+name: Badrinath Ramamurthy, email: badrinath.r@iiitb.ac.in
+name: Balaji Parthasarathy, email: pbalaji@iiitb.ac.in
+name: Balakrishnan Ashok, email: bashok@iiitb.ac.in
+name: Chandrashekar Ramanathan, email: rc@iiitb.ac.in
+name: Debabrata Das, email: ddas@iiitb.ac.in
+name: Dinesh Babu Jayagopi, email: jdinesh@iiitb.ac.in
+name: G Srinivasaraghavan, email: gsr@iiitb.ac.in
+name: Harish Ramani, email: harish.ramani@iiitb.ac.in
+name: Janaki Srinivasan, email: janaki.srinivasan@iiitb.ac.in
+name: Jaya Sreevalsan Nair, email: jnair@iiitb.ac.in
+name: Jyotsna Bapat, email: jbapat@iiitb.ac.in
+name: Karthikeyan Vaidyanathan, email: NIL, email: 
+name: Kurian Polachan, email: kurian.polachan@iiitb.ac.in
+name: Madhav Rao, email: mr@iiitb.ac.in
+name: Manisha Kulkarni, email: manisha.kulkarni@iiitb.ac.in
+name: Meenakshi D'Souza, email: meenakshi@iiitb.ac.in
+Mohan Ram C, email: mohanram.c@iiitb.ac.in
+name: Nanditha Rao, email: nanditha.rao@iiitb.ac.in
+name: Pradeesha Ashok, email: pradeesha@iiitb.ac.in
+name: Preeti Mudliar, email: preeti.mudliar@iiitb.ac.in
+name: Prem Singh, email: prem.singh@iiitb.ac.in
+name: Priyanka Sharma, email: priyanka.sharma@iiitb.ac.in
+name: Priyanka Das, email: priyanka.das@iiitb.ac.in
+name: Raghuram Bharadwaj, email: raghuram.bharadwaj@iiitb.ac.in
+name: Ramesh Kestur, email: NIL, email: 
+name: Roland Erik Haas, email: roland.haas@iiitb.ac.in
+name: S Rajagopalan, email: raj@iiitb.ac.in
+name: S S Prabhu, email: sprabhu@iiitb.ac.in
+name: Sachit Rao, email: sachit@iiitb.ac.in
+name: Sakshi Arora, email: sakshi.arora@iiitb.ac.in
+name: Shiva Kumar Malapaka, email: malapaka@iiitb.ac.in
+name: Shrisha Rao, email: srao@iiitb.ac.in
+name: Srinath Srinivasa, email: sri@iiitb.ac.in
+name: Srinivas Vivek, email: rinivas.vivek@iiitb.ac.in
+name: Subir Kumar Roy, email: subir@iiitb.ac.in
+name: Sujit Kumar Chakrabarti, email: sujitkc@iiitb.ac.in
+name: Sushree Sangeeta Behera, email: sushree.behera@iiitb.ac.in
+name: T K Srikanth, email: tk.srikanth@iiitb.ac.in
+name: Thangaraju B, email: b.thangaraju@iiitb.ac.in
+name: Uttam Kumar, email: uttam@iiitb.ac.in
+name: V Ramasubramanian, email: v.ramasubramanian@iiitb.ac.in
+name: V N Muralidhara, email: murali@iiitb.ac.in
+name: V Sridhar, email: vsridhar@iiitb.ac.in
+name: Valsala Rajan, email: NIL, email: 
+name: Vinod Veera Reddy, email: vinod.reddy@iiitb.ac.in
+name: Vinu E Venugopal, email: vinu.ev@iiitb.ac.in
+name: Viswanath Gopalakrishnan, email: viswanath.g@iiitb.ac.in
+name: Vivek Yadav, email: vivek.yadav@iiitb.ac.in
+name: Dr Lakshmi Jagannathan, email: ceoinnovationcenter@iiitb.ac.in
+name: Nahla A, email: nahla.alambilasseri@iiitb.ac.in
+name: Manugowda M S, email: manugowda.ms@iiitb.ac.in
+name: Pramila Kumar, email: Pramila.kumar@iiitb.ac.in
+name: Sridhar Pillalamarri, email: sridhar.p@iiitb.ac.in
+name: Ravi B, email: ravi.b@iiitb.ac.in
+name: Dhanush R, email: dhanush.r@iiitb.ac.in
+name: Arun Kumar Gurumurthy, email: arun@mosip.io, email: 
+name: Bhagyalakshmi R, email: hagya.lakshmi@iiitb.ac.in
+name: Nandini V, email: nandini.v@iiitb.ac.in
+name: Kannan V, email: kannan.v@iiitb.ac.in

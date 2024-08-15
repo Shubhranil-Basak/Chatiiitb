@@ -1,12 +1,20 @@
 # Clubs of IIITB
 
+Zense: Mission: There are many things which we don’t learn in the classroom but can help us a lot in extending our knowledge as well as in achieving things. Zense aims to provide a platform for students interested in the field of Software Development to use their learnings from the classroom to build things that matter.
+Organize Inter and Intra-College tech events: Zense has been participating in Global Innovation Challenges, to give the students a platform to explore new problems and technologies. Zense has also been organising National Hackathons and Intra-College Hackathons, with many more events to come in the future
+Promotes Open Source Culture: Zense brings interesting projects for all the students to work on, from various sources. This gives them industry exposure and experience Open-Sourced Development to participate in various competitions like Google’s Summer of Code.
+Create Awareness about the latest technologies: Zense has planned to conduct talks, workshops and brainstorming sessions on the latest technologies and trends that the students are interested in and are worth exploring.
+Promote Software Development Culture: Zense aims to create an ecosystem where its members can learn and build useful software which they are proud of.
+
+
+Contact ZENSE: zense-core@iiitb.ac.in
+
+
  Enigma (Robotics Club): The vision of Enigma is to promote robotics related activities at IIITB. It organizes a large number of workshops, and works on a diversity of projects related to robotics.
 
 
 
  Aikyam: Aikyam is the social wing of IIIT Bangalore that was started in 2008 by the students of IIIT Bangalore. It is an initiative taken to help the poor and the needy and understand our social responsibility. It is committed to the cause of humanity and through its different initiatives, strived to make a lasting difference in the lives of the several individuals who have been pushed to the margins of the society due to social or economic conditions. 
-
-
 
 Contact Aikyam: `aikyam@iiitb.org`
 
@@ -58,16 +66,6 @@ CAMP: CAMP (Club for Algorithms, Math and Programming) aims to bolster the compe
 
 
 Contact CAMP: `camp@iiitb.ac.in`
-
-
-Zense: Mission: There are many things which we don’t learn in the classroom but can help us a lot in extending our knowledge as well as in achieving things. Zense aims to provide a platform for students interested in the field of Software Development to use their learnings from the classroom to build things that matter.
-Organize Inter and Intra-College tech events: Zense has been participating in Global Innovation Challenges, to give the students a platform to explore new problems and technologies. Zense has also been organising National Hackathons and Intra-College Hackathons, with many more events to come in the future
-Promotes Open Source Culture: Zense brings interesting projects for all the students to work on, from various sources. This gives them industry exposure and experience Open-Sourced Development to participate in various competitions like Google’s Summer of Code.
-Create Awareness about the latest technologies: Zense has planned to conduct talks, workshops and brainstorming sessions on the latest technologies and trends that the students are interested in and are worth exploring.
-Promote Software Development Culture: Zense aims to create an ecosystem where its members can learn and build useful software which they are proud of.
-
-
-Contact ZENSE: zense-core@iiitb.ac.in
 
 
 Chhayachitra (Photography club): Chhayachitra is IIIT-Bangalore’s official photography club and it started in 2015. Here the students are given an opportunity to hone their skills in photography, videography, video editing, and much more. They get to sharpen their skills by capturing photographs of the various happenings within the institute.
