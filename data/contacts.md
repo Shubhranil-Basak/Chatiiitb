@@ -66,17 +66,3 @@ Amrita Mishra|amrita.mishra@iiitb.ac.in|
 |Bhagyalakshmi R|hagya.lakshmi@iiitb.ac.in|
 |Nandini V|nandini.v@iiitb.ac.in|
 |Kannan V|kannan.v@iiitb.ac.in|
-
-# Institute contact detail
-
-IIIT Bangalore
-26/C, Opposite of Infosys gate 1
-Electronics City Phase 1, Hosur Road
-Bengaluru - 560100
-
-Phone: +91 80 4140 7777/ 2852 7627
-
-Fax: +91 80 4140 7704
-
-Office Hours:
-Monday – Friday (9:00 am to 5:00 pm)
